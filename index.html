@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +9,32 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <form>
+        <label for="nomesobrenome">Nome e sobrenome</label>
+        <input type="text" id="nomesobrenome" class="input_padrao" required>
 
+        <label for="email">Endereço de Email</label>
+        <input type="email" id="email" class="input_padrao" required placeholder="seuemail@dominio.com">
+
+        <label for="Telefone">Telefone</label>
+        <input type="tel" id="Telefone" class="input_padrao" required placeholder="(XX) XXXXX-XXXX">
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" cols="30" rows="10"></textarea>
+
+        <fieldset>
+            <legend>Qual veículo irá utilizar?</legend>
+            <label for="radio_carro"><input type="radio" name="veiculo" value="carro" id="radio_carro">Carro</label>
+
+            <label for="radio_moto"><input type="radio" name="veiculo" value="moto" id="radio_moto">Moto</label>
+
+            <label for="radio_caminhao"><input type="radio" name="veiculo" value="caminhao" id="radio_caminhao">Caminhão</label>
+
+            <label for="radio_onibus"><input type="radio" name="veiculo" value="onibus" id="radio_onibus">Ônibus</label>
+        </fieldset>
     </form>
-
-    <script src="js/main.js"></script>
 </body>
+
 </html>
