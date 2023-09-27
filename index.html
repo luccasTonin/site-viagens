@@ -6,33 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trace suas rotas</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <form>
-        <label for="nomesobrenome">Nome e sobrenome</label>
+        <label for="nomesobrenome" class="identificacao">Nome e sobrenome</label>
         <input type="text" id="nomesobrenome" class="input_padrao" required>
 
-        <label for="email">Endereço de Email</label>
+        <label for="email" class="identificacao">Endereço de Email</label>
         <input type="email" id="email" class="input_padrao" required placeholder="seuemail@dominio.com">
 
-        <label for="Telefone">Telefone</label>
+        <label for="Telefone" class="identificacao">Telefone</label>
         <input type="tel" id="Telefone" class="input_padrao" required placeholder="(XX) XXXXX-XXXX">
 
-        <label for="mensagem">Mensagem</label>
+        <label for="mensagem" class="identificacao">Mensagem</label>
         <textarea id="mensagem" cols="30" rows="10"></textarea>
 
         <fieldset>
             <legend>Qual veículo irá utilizar?</legend>
-            <label for="radio_carro"><input type="radio" name="veiculo" value="carro" id="radio_carro">Carro</label>
+            <label for="radio_carro" class="opcoes"><input type="radio" name="veiculo" value="carro" id="radio_carro">Carro</label>
 
-            <label for="radio_moto"><input type="radio" name="veiculo" value="moto" id="radio_moto">Moto</label>
+            <label for="radio_moto" class="opcoes"><input type="radio" name="veiculo" value="moto" id="radio_moto">Moto</label>
 
-            <label for="radio_caminhao"><input type="radio" name="veiculo" value="caminhao" id="radio_caminhao">Caminhão</label>
+            <label for="radio_caminhao" class="opcoes"><input type="radio" name="veiculo" value="caminhao" id="radio_caminhao">Caminhão</label>
 
-            <label for="radio_onibus"><input type="radio" name="veiculo" value="onibus" id="radio_onibus">Ônibus</label>
+            <label for="radio_onibus" class="opcoes"><input type="radio" name="veiculo" value="onibus" id="radio_onibus">Ônibus</label>
         </fieldset>
     </form>
 </body>

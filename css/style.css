@@ -1,0 +1,28 @@
+form {
+    display: grid;
+}
+
+.identificacao {
+    font-size: 25px;
+}
+
+#nomesobrenome {
+    margin-bottom: 15px;
+}
+
+#email {
+    margin-bottom: 15px;
+}
+
+#Telefone {
+    margin-bottom: 15px;
+}
+
+#mensagem {
+    margin-bottom: 15px;
+}
+
+.opcoes {
+    font-size: 20px;
+    display: block;
+}
