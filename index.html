@@ -28,10 +28,10 @@
         <input type="tel" id="Telefone" class="input_padrao" required placeholder="(XX) XXXXX-XXXX">
 
         <label for="mensagem" class="identificacao">Mensagem</label>
-        <textarea id="mensagem" cols="30" rows="10"></textarea>
+        <textarea id="mensagem" cols="30" rows="7"></textarea>
 
-        <fieldset>
-            <legend>Qual veículo irá utilizar?</legend>
+        <fieldset class="fieldset">
+            <legend class="ecolha-do-veiculo">Qual veículo irá utilizar?</legend>
             <label for="radio_carro" class="opcoes"><input type="radio" name="veiculo" value="carro" id="radio_carro">Carro</label>
 
             <label for="radio_moto" class="opcoes"><input type="radio" name="veiculo" value="moto" id="radio_moto">Moto</label>
@@ -40,6 +40,10 @@
 
             <label for="radio_onibus" class="opcoes"><input type="radio" name="veiculo" value="onibus" id="radio_onibus">Ônibus</label>
         </fieldset>
+
+        <div class="div-botao">
+            <button class="botao-enviar">Enviar</button>
+        </div>
     </form>
 </body>
 
