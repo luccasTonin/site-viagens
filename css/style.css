@@ -75,11 +75,13 @@ form {
     font-size: 17px;
     border: none;
     transition: 1s;
-    height: 30px;
-    margin-top: 5px;
+    height: 35px;
+    margin-top: 20px;
 }
 
 .botao-enviar:hover {
-    padding: 3px;
+    padding: 4px;
     width: 170px;
+    cursor: pointer;
+    background-color: darkorange;
 }
