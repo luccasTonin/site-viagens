@@ -14,30 +14,44 @@
 <body>
     <header>
         <div class="div-navbar">
-            <a href="index.html"><img class="aviao" src="img/viagens.png"></a>
-            <h1>Let's bora viajar?</h1>
-            <a href="mapa.html" class="rotas">Rotas</a>
+            <h1>
+                <a href="index.html"><img class="aviao" src="img/viagens.png" alt="Imagem de um avião ao redor da Terra"></a>
+                <p>Let's bora viajar?</p>
+            </h1>
+
+            <nav>
+                <ul>
+                    <li><a href="mapa.html" class="links">Rotas</a></li>
+                </ul>
+            </nav>
+            
+        
         </div>
     </header>
     
-    <form>
-        <label for="nomesobrenome" class="identificacao">Nome e sobrenome</label>
-        <input type="text" id="nomesobrenome" class="input_padrao" required placeholder="Seu nome">
+    <main>
+        <form>
+            <label for="nomesobrenome" class="identificacao">Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input_padrao" required placeholder="Seu nome">
 
-        <label for="email" class="identificacao">Endereço de Email</label>
-        <input type="email" id="email" class="input_padrao" required placeholder="seuemail@dominio.com">
+            <label for="email" class="identificacao">Endereço de Email</label>
+            <input type="email" id="email" class="input_padrao" required placeholder="seuemail@dominio.com">
 
-        <label for="Telefone" class="identificacao">Telefone</label>
-        <input type="tel" id="Telefone" class="input_padrao" required placeholder="(XX) XXXXX-XXXX">
+            <label for="Telefone" class="identificacao">Telefone</label>
+            <input type="tel" id="Telefone" class="input_padrao" required placeholder="(XX) XXXXX-XXXX">
 
-        <label for="mensagem" class="identificacao">Mensagem</label>
-        <textarea id="mensagem" cols="30" rows="5"></textarea>
+            <label for="mensagem" class="identificacao">Mensagem</label>
+            <textarea id="mensagem" cols="30" rows="5"></textarea>
+
 
         <div class="div-botao">
             <button class="botao-enviar">Enviar</button>
         </div>
     </form>
 
-    <script src="js/main.js"></script>
+    <footer>
+        <p class="copyright">&copy; Copyright Trace suas rotas - 2023 Todos os direitos reservados</p>
+    </footer>
+
 </body>
 </html>

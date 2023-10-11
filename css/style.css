@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
 body{
     background-color: #c7c7c7;
 }
@@ -5,24 +7,36 @@ body{
 .div-navbar {
     display: flex;
     margin: 10px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 h1 {
+    display: flex;
+    align-items: center;
+}
+
+p {
     font-size: 20px;
-    margin: 20px 0 0 10px;
+    font-family: 'Merriweather', serif;
 }
 
 .aviao {
     width: 70px;
 }
 
-.rotas {
+nav li {
+	display: inline;
+	margin: 0 20px 0 0;
+}
+
+.links {
     font-size: 20px;
     color: #000000;
     text-decoration: none;
-    position: absolute;
-    top: 30px;
-    right: 30px;
+    font-family: 'Merriweather', serif;
+	top: 110px;
+	right: 0;
 }
 
 form {
@@ -33,6 +47,7 @@ form {
     font-size: 25px;
     text-align: center;
     margin: 15px 0 10px;
+    font-family: 'Merriweather', serif;
 }
 
 #nomesobrenome {
@@ -79,4 +94,116 @@ form {
     width: 170px;
     cursor: pointer;
     background-color: darkorange;
+}
+
+.copyright {
+    color: #000000;
+    background-color: #b1b1b1;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (min-width: 468px) and (max-width: 1024px){
+    .copyright {
+        color: #000000;
+        background-color: #b1b1b1;
+        padding: 16px;
+        text-align: center;
+        font-family: 'Merriweather', serif;
+        font-size: 1rem;
+        font-weight: 700;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    #nomesobrenome {
+        width: 400px;
+        margin: 0 auto;
+        padding: 5px;
+    }
+    
+    #email {
+        width: 400px;
+        margin: 0 auto;
+        padding: 5px;
+    }
+    
+    #Telefone {
+        width: 400px;
+        margin: 0 auto;
+        padding: 5px;
+    }
+    
+    #mensagem {
+        width: 400px;
+        margin: 0 auto;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 468px) {
+    .links {
+        font-size: 15px;
+        color: #000000;
+        text-decoration: none;
+        font-family: 'Merriweather', serif;
+        top: 110px;
+        right: 0;
+    }
+
+    p {
+        font-size: 15px;
+        font-family: 'Merriweather', serif;
+    }
+
+    .identificacao {
+        font-size: 20px;
+        text-align: center;
+        margin: 15px 0 10px;
+        font-family: 'Merriweather', serif;
+    }
+
+    .copyright {
+        color: #000000;
+        background-color: #b1b1b1;
+        padding: 16px;
+        text-align: center;
+        font-family: 'Merriweather', serif;
+        font-size: 12px;
+        font-weight: 700;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    #nomesobrenome {
+        width: 300px;
+        margin: 0 auto;
+        padding: 5px;
+    }
+    
+    #email {
+        width: 300px;
+        margin: 0 auto;
+        padding: 5px;
+    }
+    
+    #Telefone {
+        width: 300px;
+        margin: 0 auto;
+        padding: 5px;
+    }
+    
+    #mensagem {
+        width: 300px;
+        margin: 0 auto;
+        padding: 5px;
+    }
 }
